@@ -1,0 +1,24 @@
+
+#include<stdio.h>
+int main()
+{
+	char str[100];
+	int i;
+	gets(str);
+	for(i=0;str[i]!='\0';i=i+1)
+	{    if(str[i]=='a')
+		str[i]=str[i]-32;
+	}
+		puts(str);
+	return 0;
+}
+output:
+aditya
+AdityA
+
+--------------------------------
+Process exited after 7.149 seconds with return value 0
+Press any key to continue . . .
+
+
+
